@@ -1,0 +1,42 @@
+.carousel-container{
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
+    gap: 50px;
+}
+.card{
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+/* .slick-slide div{
+   margin: 0 1rem;
+} */
+
+.sliderr{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.img{
+    background-repeat: no-repeat;
+}
+
+.card{
+background-image: url(/src/Assets/sliderImg\ 1.jpg);
+/* background-color: rgb(26, 25, 25); */
+display: flex;
+flex-direction: column;
+gap: 200px;
+}
+
+.transition{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.transition :nth-child(2){
+    color: grey;
+
+}

@@ -1,0 +1,93 @@
+#book-flight{
+    /* background-color: red; */
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.form-control{
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 80px;
+    background-color: #fff;
+    width: 80%;
+    border: 1px solid rgb(201, 192, 192);
+    background-image: url(/src/Assets/sliderImg\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 20px;
+}
+
+.form-control input{
+    padding: 15px 15px;
+    margin: 0 1rem  ;
+    
+
+}
+
+.form-control button{
+    display: block;
+    padding: 15px 80px;
+    margin: 20px auto 0px;
+    font-size: 20px;
+}
+
+.category{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+select[name = dropdown]{
+    padding: 5px;
+}
+
+
+@media screen and (max-width : 1040px){
+
+    #book-flight{
+        /* background-color: red; */
+        height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .form-control{
+        margin: 50px auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px 80px;
+        background-color: #fff;
+        width: 100%;
+        border: 1px solid rgb(201, 192, 192);
+        background-image: url(/src/Assets/sliderImg\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        border-radius: 20px;
+    }
+
+    .text-areas{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .form-control input{
+        padding: 15px 15px;
+        margin: 0 1rem  ;
+        /* display: flex; */
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    
+    }
+    
+
+}

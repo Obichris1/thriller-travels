@@ -1,0 +1,71 @@
+
+
+.mask{
+width: 100%; 
+height: 100vh;
+position: relative;
+}
+
+
+.mask img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .mask::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(68, 63, 63);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+
+} */
+.hero{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+    top: 50%;
+   text-align: center;
+   font-size: 2rem;
+   color: #fff;
+
+   /* margin: auto; */
+}
+.content div{
+    padding: 30px;
+}
+
+.content h1{
+    font-family: cursive;
+}
+
+
+@media screen and (max-width : 1040px){
+    .content{
+        /* position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+         top: 50%;
+        text-align: center; */
+        font-size: 1rem;
+     
+        /* margin: auto; */
+     }
+
+     .content .buttons{
+        display: flex;
+    }
+    
+
+}
